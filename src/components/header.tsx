@@ -50,7 +50,7 @@ export default function Header() {
             <FaEnvelope />
           </a>
           <a
-            href="https://linkedin.com/in/hima-d"
+            href="https://linkedin.com/in/him-d"
             target="_blank"
             rel="noopener noreferrer"
             className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
@@ -104,7 +104,7 @@ export default function Header() {
                 <FaEnvelope />
               </a>
               <a
-                href="https://linkedin.com/in/hima-d"
+                href="https://linkedin.com/in/him-d"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
