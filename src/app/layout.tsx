@@ -1,6 +1,6 @@
 // layout.tsx or RootLayout.tsx
 import { Geist, Geist_Mono } from "next/font/google"; // Font imports
-import GoogleTagManager from "./components/GoogleTagManager"; // Import GoogleTagManager component
+import GoogleTagManager from "../components/GoogleTagManager"; // Import GoogleTagManager component
 
 // Import the fonts
 const geistSans = Geist({
