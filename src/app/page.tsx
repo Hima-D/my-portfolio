@@ -1,5 +1,6 @@
 import { FaEnvelope, FaLinkedin, FaGithub, FaCode, FaLaptopCode } from 'react-icons/fa';
 import Header from '@/components/header';
+import Image from 'next/image'; // Import Image from next/image
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
         
         {/* Profile Section */}
         <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
-          <img
-            src="/profile.jpg" // Replace with your profile image path
+          <Image
+            src="/profile.jpg" // Image path
             alt="Himanshu Dixit"
             width={150}
             height={150}
@@ -29,10 +30,10 @@ export default function Home() {
         <section id="homepage" className="w-full bg-white rounded-lg shadow-xl p-6 mb-8 max-w-[800px] hover:shadow-2xl transition-shadow duration-300">
           <h2 className="text-2xl font-semibold mb-4 text-indigo-900">Welcome to My Homepage</h2>
           <p className="text-lg text-gray-700 opacity-80">
-            Welcome to my little corner of the web, where the code is clean, the coffee is strong, and the stack traces are... well, let's not talk about those. As an AI enthusiast and developer, I dive deep into the realms of machine learning and artificial intelligence, but I still find myself asking: "Why does JavaScript hate me today?"
+            Welcome to my little corner of the web, where the code is clean, the coffee is strong, and the stack traces are&hellip; well, let&apos;s not talk about those. As an AI enthusiast and developer, I dive deep into the realms of machine learning and artificial intelligence, but I still find myself asking: &quot;Why does JavaScript hate me today?&quot;
           </p>
           <p className="text-lg text-gray-700 opacity-80 mt-4">
-            Whether it's crafting algorithms that predict the future (or at least try to) or exploring trends like generative AI and large language models, I'm always chasing the next innovation. Yes, I'm the person who reads GitHub release notes like they're the morning paper. 
+            Whether it&apos;s crafting algorithms that predict the future (or at least try to) or exploring trends like generative AI and large language models, I&apos;m always chasing the next innovation. Yes, I&apos;m the person who reads GitHub release notes like they&apos;re the morning paper. 
           </p>
         </section>
 
@@ -46,7 +47,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2">
               <FaCode className="h-6 w-6 text-indigo-600" />
-              <span>Python & Libraries (a.k.a. my daily bread and butter)</span>
+              <span>Python &amp; Libraries (a.k.a. my daily bread and butter)</span>
             </div>
             <div className="flex items-center gap-2">
               <FaLaptopCode className="h-6 w-6 text-indigo-600" />
@@ -62,7 +63,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2">
               <FaCode className="h-6 w-6 text-indigo-600" />
-              <span>Big Data (it’s not just big, it’s overwhelming)</span>
+              <span>Big Data (it&apos;s not just big, it&apos;s overwhelming)</span>
             </div>
           </div>
         </section>
@@ -92,7 +93,7 @@ export default function Home() {
       <footer className="flex gap-6 flex-wrap items-center justify-center text-sm text-gray-600 opacity-60 mt-8">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/himanshudixit"
+          href="https://github.com/hima-d"
           target="_blank"
           rel="noopener noreferrer"
         >
