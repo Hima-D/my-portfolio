@@ -18,7 +18,7 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Sales Analysis & Forecasting Model</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                Developed a machine learning model to predict future sales trends for a retail client. I used time-series forecasting techniques like ARIMA and LSTM. Basically, I made sure the client doesn’t overstock *and* doesn't run out of popular products. It's like having a crystal ball, but cooler and way more accurate.
+                Developed a machine learning model to predict future sales trends for a retail client. I used time-series forecasting techniques like ARIMA and LSTM. Basically, I made sure the client doesn&apos;t overstock *and* doesn&apos;t run out of popular products. It&apos;s like having a crystal ball, but cooler and way more accurate.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
                 <li>Applied exploratory data analysis (EDA) to clean and prepare data for accurate predictions.</li>
@@ -44,11 +44,11 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">AI for Finance at Coinwave</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                As a Machine Learning Engineer at Coinwave, I build predictive models to forecast stock market trends, analyze customer data, and even detect fraud. The models I work on use cutting-edge algorithms, so you could say I’m basically trying to predict the future. (No pressure, right?)
+                As a Machine Learning Engineer at Coinwave, I build predictive models to forecast stock market trends, analyze customer data, and even detect fraud. The models I work on use cutting-edge algorithms, so you could say I&apos;m basically trying to predict the future. (No pressure, right?)
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
                 <li>Built predictive models using time-series analysis and reinforcement learning to forecast stock market trends.</li>
-                <li>Collaborated with data scientists and analysts to integrate AI tools into the company’s financial platform.</li>
+                <li>Collaborated with data scientists and analysts to integrate AI tools into the company&apos;s financial platform.</li>
                 <li>Applied NLP techniques to extract insights from unstructured financial data (news, reports, etc.).</li>
               </ul>
             </div>
@@ -57,7 +57,7 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Co-Founder at Enack</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                Co-founded Enack, an EdTech startup, to build AI-driven tools that personalize learning experiences for students. The highlight? A recommendation engine that tailors content based on student engagement. It’s like Netflix for learning (minus the popcorn).
+                Co-founded Enack, an EdTech startup, to build AI-driven tools that personalize learning experiences for students. The highlight? A recommendation engine that tailors content based on student engagement. It&apos;s like Netflix for learning (minus the popcorn).
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
                 <li>Developed an AI-powered personalized learning system using NLP and collaborative filtering.</li>
@@ -70,12 +70,12 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">AI-Powered Platform for Student Engagement</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                Built an AI-powered platform that tracks student engagement, predicts academic success, and suggests personalized interventions. Basically, it’s a dashboard that tells teachers when their students are about to zone out in class.
+                Built an AI-powered platform that tracks student engagement, predicts academic success, and suggests personalized interventions. Basically, it&apos;s a dashboard that tells teachers when their students are about to zone out in class.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
                 <li>Used machine learning to analyze student interaction data and predict future engagement.</li>
                 <li>Created a dashboard to help educators monitor progress and predict which students might need extra attention.</li>
-                <li>Incorporated interactive features to make learning fun and engaging—because who says education can’t be exciting?</li>
+                <li>Incorporated interactive features to make learning fun and engaging—because who says education can&apos;t be exciting?</li>
               </ul>
             </div>
 
@@ -83,7 +83,7 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">State 2nd Topper in Finance & Mathematics</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                During my academic journey, I earned the title of **State 2nd Topper** in both **Finance** and **Mathematics**. A pretty cool accomplishment that speaks to my strong analytical and mathematical abilities, and yes—I did it all while drinking way too much coffee.
+                During my academic journey, I earned the title of <strong>State 2nd Topper</strong> in both <strong>Finance</strong> and <strong>Mathematics</strong>. A pretty cool accomplishment that speaks to my strong analytical and mathematical abilities, and yes—I did it all while drinking way too much coffee.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
                 <li>Achieved top rankings in state exams, demonstrating exceptional skills in finance and quantitative analysis.</li>
