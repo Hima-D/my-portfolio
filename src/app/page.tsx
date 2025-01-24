@@ -14,7 +14,7 @@ export default function Home() {
         {/* Profile Section */}
         <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
           <Image
-            src="/profile.jpg" // Image path
+            src="/my-portfolio/profile.jpg" // Image path
             alt="Himanshu Dixit"
             width={150}
             height={150}
