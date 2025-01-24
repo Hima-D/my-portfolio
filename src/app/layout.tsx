@@ -1,8 +1,10 @@
-// layout.tsx or RootLayout.tsx
-import { Geist, Geist_Mono } from "next/font/google"; // Font imports
-import GoogleTagManager from "../components/GoogleTagManager"; // Import GoogleTagManager component
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css"; // Your global styles
+import Head from "next/head";
+import GoogleTagManager from "../components/GoogleTagManager"; // Import the GoogleTagManager component
 
-// Import the fonts
+// Font imports
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,7 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Himanshu Dixit",
   description: "Machine Learning Engineer | AI Enthusiast | Data Scientist",
 };
@@ -28,9 +30,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-      <head>
-        <link rel="shortcut icon" href="/favicon.ico" />
-        
+      <Head>
         {/* Google Site Verification meta tag */}
         <meta
           name="google-site-verification"
@@ -39,7 +39,10 @@ export default function RootLayout({
         
         {/* Google Tag Manager (gtag.js) */}
         <GoogleTagManager gtmId="G-QSWE89DM1Z" />
-      </head>
+
+        {/* Favicon link */}
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <body>
         <main>{children}</main>
       </body>
