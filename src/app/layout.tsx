@@ -31,6 +31,20 @@ export default function RootLayout({
           name="google-site-verification"
           content="aldkpVz1UJxcASd7W76roNr-anxr8iXLBlDbSCtnMIk"
         />
+        
+        {/* Google Tag Manager (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-QSWE89DM1Z"
+        ></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QSWE89DM1Z');
+          `}
+        </script>
       </Head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
