@@ -97,7 +97,7 @@ export default function Header() {
             {/* Social Icons for Mobile */}
             <div className="flex items-center gap-4 mt-4">
               <a
-                href="mailto:your-email@example.com"
+                href="mailto:dixithimanshu012@gmail.com"
                 className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
                 aria-label="Email"
               >
