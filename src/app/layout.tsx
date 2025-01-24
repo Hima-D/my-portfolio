@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Head from "next/head";
+// layout.tsx or RootLayout.tsx
+import { Geist, Geist_Mono } from "next/font/google"; // Font imports
+import GoogleTagManager from "./components/GoogleTagManager"; // Import GoogleTagManager component
 
+// Import the fonts
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Himanshu Dixit",
   description: "Machine Learning Engineer | AI Enthusiast | Data Scientist",
 };
@@ -24,8 +24,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <Head>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+    >
+      <head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        
         {/* Google Site Verification meta tag */}
         <meta
           name="google-site-verification"
@@ -33,21 +38,10 @@ export default function RootLayout({
         />
         
         {/* Google Tag Manager (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-QSWE89DM1Z"
-        ></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-QSWE89DM1Z');
-          `}
-        </script>
-      </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
+        <GoogleTagManager gtmId="G-QSWE89DM1Z" />
+      </head>
+      <body>
+        <main>{children}</main>
       </body>
     </html>
   );
