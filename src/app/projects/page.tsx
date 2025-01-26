@@ -18,12 +18,12 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Sales Analysis & Forecasting Model</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                Developed a machine learning model to predict future sales trends for a retail client. I used time-series forecasting techniques like ARIMA and LSTM. Basically, I made sure the client doesn&apos;t overstock *and* doesn&apos;t run out of popular products. It&apos;s like having a crystal ball, but cooler and way more accurate.
+                I developed a machine learning model to predict future sales trends for a retail client. Think of it like forecasting the weather, but for sales. I used time-series techniques like ARIMA and LSTM, which helped the client avoid overstocking and running out of popular products. It’s kind of like having a crystal ball, but with real data backing it up!
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Applied exploratory data analysis (EDA) to clean and prepare data for accurate predictions.</li>
-                <li>Used ARIMA and LSTM models to forecast future sales, optimizing inventory management.</li>
-                <li>Collaborated with the business team to align the model with key business goals. Spoiler: They liked it!</li>
+                <li>Cleaned and prepared data using EDA (Exploratory Data Analysis) to ensure accurate predictions.</li>
+                <li>Applied ARIMA and LSTM models to forecast sales, helping optimize inventory and reduce waste.</li>
+                <li>Worked closely with the business team to make sure the model actually helped them hit their goals. Spoiler alert: it did!</li>
               </ul>
             </div>
 
@@ -31,12 +31,12 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Data Cleaning & Sanity Check Pipelines</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                Built robust data pipelines to clean and process large datasets in the finance and retail sectors. Think of it like giving your data a nice spa treatment—clean, refreshed, and ready to go!
+                This one’s all about making sure your data is nice and tidy before you do anything with it. I built robust pipelines to clean and process large datasets in finance and retail. Imagine giving your data a spa day—getting rid of all the messy bits so it’s ready to work for you.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
                 <li>Designed ETL workflows to handle missing values, outliers, and duplicates in financial data.</li>
-                <li>Automated sanity checks and anomaly detection to ensure high-quality datasets.</li>
-                <li>Used Python (Pandas, NumPy) and SQL for efficient data processing on a large scale.</li>
+                <li>Automated sanity checks and anomaly detection to ensure the data remained high quality.</li>
+                <li>Leveraged Python (Pandas, NumPy) and SQL to streamline the whole process and handle large-scale data efficiently.</li>
               </ul>
             </div>
 
@@ -44,12 +44,12 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">AI for Finance at Coinwave</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                As a Machine Learning Engineer at Coinwave, I build predictive models to forecast stock market trends, analyze customer data, and even detect fraud. The models I work on use cutting-edge algorithms, so you could say I&apos;m basically trying to predict the future. (No pressure, right?)
+                At Coinwave, we’re still in the early stages of building an AI-driven platform for managing financial accounts and helping people plan for their future goals. My job as a Machine Learning Engineer is to develop predictive models that will eventually help clients make smarter financial decisions—whether it’s investments, savings, or long-term financial planning. It’s like we’re creating a personal financial assistant, but powered by AI.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Built predictive models using time-series analysis and reinforcement learning to forecast stock market trends.</li>
-                <li>Collaborated with data scientists and analysts to integrate AI tools into the company&apos;s financial platform.</li>
-                <li>Applied NLP techniques to extract insights from unstructured financial data (news, reports, etc.).</li>
+                <li>Building predictive models to forecast financial trends, helping clients optimize their portfolios.</li>
+                <li>Developing a unified platform that brings all accounts together, helping people plan and track their financial goals.</li>
+                <li>Collaborating with a talented team to turn complex financial data into easy-to-understand insights for users.</li>
               </ul>
             </div>
 
@@ -57,12 +57,12 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Co-Founder at Enack</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                Co-founded Enack, an EdTech startup, to build AI-driven tools that personalize learning experiences for students. The highlight? A recommendation engine that tailors content based on student engagement. It&apos;s like Netflix for learning (minus the popcorn).
+                I co-founded Enack, an EdTech startup focused on building AI-powered tools to personalize learning experiences. At Enack, we’re working on transitioning our platform from offline to fully online. Our goal is to create an interactive learning environment that’s tailored to each student’s needs—whether that’s through personalized content recommendations or gamified learning experiences. The shift online will help us reach a lot more students and expand our impact.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Developed an AI-powered personalized learning system using NLP and collaborative filtering.</li>
-                <li>Integrated gamification features into the platform, turning learning into an engaging experience (without all the tests!).</li>
-                <li>Worked closely with educators to improve learning outcomes using AI-based insights.</li>
+                <li>Developed an AI-powered personalized learning engine that tailors content based on student interaction.</li>
+                <li>Led the development of gamification features to make learning more engaging and fun.</li>
+                <li>Transitioning the platform from offline to online to provide greater accessibility for students everywhere.</li>
               </ul>
             </div>
 
@@ -70,12 +70,12 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">AI-Powered Platform for Student Engagement</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                Built an AI-powered platform that tracks student engagement, predicts academic success, and suggests personalized interventions. Basically, it&apos;s a dashboard that tells teachers when their students are about to zone out in class.
+                I helped build an AI-powered platform to track student engagement, predict academic success, and suggest personalized interventions. It’s like having a dashboard that alerts teachers when students might need extra help, or even when they’re about to zone out in class. In short, it’s a tool that helps make education more responsive to student needs.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Used machine learning to analyze student interaction data and predict future engagement.</li>
-                <li>Created a dashboard to help educators monitor progress and predict which students might need extra attention.</li>
-                <li>Incorporated interactive features to make learning fun and engaging—because who says education can&apos;t be exciting?</li>
+                <li>Used machine learning to analyze student interaction data and predict future academic engagement.</li>
+                <li>Created dashboards for educators to track students’ progress and intervene when necessary.</li>
+                <li>Incorporated interactive, engaging features to make the learning experience as fun as it is educational.</li>
               </ul>
             </div>
 
@@ -83,11 +83,23 @@ const ProjectsPage = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">State 2nd Topper in Finance & Mathematics</h3>
               <p className="text-lg text-gray-700 opacity-80 mb-4">
-                During my academic journey, I earned the title of <strong>State 2nd Topper</strong> in both <strong>Finance</strong> and <strong>Mathematics</strong>. A pretty cool accomplishment that speaks to my strong analytical and mathematical abilities, and yes—I did it all while drinking way too much coffee.
+                A little personal achievement I’m pretty proud of: I was ranked as the State 2nd Topper in both Finance and Mathematics. I’m a bit of a numbers nerd (who isn’t, right?) and this recognition reflects my deep love for analytical thinking. And yes, it was all achieved with a generous amount of coffee.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Achieved top rankings in state exams, demonstrating exceptional skills in finance and quantitative analysis.</li>
-                <li>Applied advanced math and statistics to solve real-world problems in finance and machine learning.</li>
+                <li>Excelled in state exams, proving my skills in finance and quantitative analysis.</li>
+                <li>Used advanced math to solve real-world challenges in both finance and machine learning.</li>
+              </ul>
+            </div>
+
+            {/* Personal Interest in Astrophysics */}
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Astrophysics: My Cosmic Curiosity</h3>
+              <p className="text-lg text-gray-700 opacity-80 mb-4">
+                On a more personal note, I’ve always been fascinated by the universe. My interest in astrophysics isn’t just limited to stargazing—it’s more about understanding the fundamental laws of nature and how they apply to both the cosmos and the technology we develop. In many ways, the complexity of machine learning reminds me of astrophysics—both require us to build models to understand a vast, often unknowable universe.
+              </p>
+              <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
+                <li>Love exploring the mysteries of space and the mathematical models that describe it.</li>
+                <li>Always amazed by the parallels between space exploration and the cutting-edge technologies we’re building.</li>
               </ul>
             </div>
           </div>
