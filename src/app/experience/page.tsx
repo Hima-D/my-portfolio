@@ -38,12 +38,12 @@ const Resume = () => {
               <h3 className="text-2xl font-bold text-indigo-800">Founder & CEO at Coinwave</h3>
               <p className="text-lg text-gray-700 opacity-80">March 2023 - Present | Remote</p>
               <p className="text-lg text-gray-700 opacity-80">
-                Leading Coinwave to integrate machine learning into financial strategies, optimizing investments, detecting fraud, and forecasting trends to redefine the finance sector.
+                Leading Coinwave in its early development stage, working on creating a unified system to manage financial accounts and track future goals for individuals and businesses. The system will integrate financial data and provide tailored solutions to help clients manage investments, savings, and risk management strategies.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 pl-6">
-                <li>Developed advanced stock market prediction models using ARIMA, LSTM, and reinforcement learning.</li>
-                <li>Improved fraud detection accuracy by 15% through robust algorithmic enhancements.</li>
-                <li>Secured seed funding and forged strategic partnerships to drive product innovation.</li>
+                <li>Developing a unified system that centralizes all financial accounts to provide comprehensive oversight.</li>
+                <li>Designing AI-driven tools to help users manage and align their financial goals with predictive insights.</li>
+                <li>Exploring partnerships and seeking funding to advance the platform’s capabilities and reach.</li>
               </ul>
             </div>
 
@@ -52,12 +52,20 @@ const Resume = () => {
               <h3 className="text-2xl font-bold text-indigo-800">Co-Founder at Enack</h3>
               <p className="text-lg text-gray-700 opacity-80">August 2024 - Present | Gurugram, Haryana, India</p>
               <p className="text-lg text-gray-700 opacity-80">
-                Spearheading technological innovations to deliver personalized learning experiences through AI-powered tools and scalable platforms.
+                Spearheading the upgrade of Enack from offline to an online platform while overseeing technological innovations. I am also actively involved in developing AI-powered tools for personalized learning experiences.
+              </p>
+            </div>
+
+            <div className="space-y-4 mt-8">
+              <h3 className="text-2xl font-bold text-indigo-800">Trainer & Developer at Enack</h3>
+              <p className="text-lg text-gray-700 opacity-80">August 2024 - Present | Gurugram, Haryana, India</p>
+              <p className="text-lg text-gray-700 opacity-80">
+                As a trainer and developer, I’m responsible for both creating AI-based learning solutions and providing training to students and educators on how to maximize the platform's potential.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 pl-6">
-                <li>Designed an AI-driven recommendation engine to tailor educational content for individual learners.</li>
-                <li>Managed a team of engineers and educators to create a seamless user experience.</li>
-                <li>Secured seed funding and partnerships to expand the platform’s reach and impact.</li>
+                <li>Developing and upgrading AI-powered tools to enhance personalized learning experiences.</li>
+                <li>Teaching and mentoring students on how to leverage the platform for their educational growth.</li>
+                <li>Leading the transition of the platform from offline to an online-based model for scalability and accessibility.</li>
               </ul>
             </div>
 
@@ -79,11 +87,12 @@ const Resume = () => {
               <h3 className="text-2xl font-bold text-indigo-800">Data Analyst at SUN Renewables WH Pvt. Ltd.</h3>
               <p className="text-lg text-gray-700 opacity-80">July 2023 - October 2023 (4 months) | Gurugram, Haryana, India</p>
               <p className="text-lg text-gray-700 opacity-80">
-                Analyzed renewable energy data to aid decision-making and improve operational efficiency.
+                Worked on the **Helm Initiative by Sun Group**, a personal project designed for **high-net-worth individuals**. The initiative aimed to foster connections and create a conducive environment for these individuals to collaborate on innovative projects and ideas.
               </p>
               <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 pl-6">
-                <li>Processed and visualized energy consumption data to support strategic planning.</li>
-                <li>Prepared detailed reports to help stakeholders optimize energy usage.</li>
+                <li>Developed data-driven strategies to enhance the collaborative ecosystem for high-net-worth individuals.</li>
+                <li>Assisted in creating personalized experiences and networking opportunities within the community.</li>
+                <li>Processed and analyzed data to refine strategies for a more effective engagement environment.</li>
               </ul>
             </div>
           </div>
