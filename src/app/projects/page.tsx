@@ -109,10 +109,10 @@ const ProjectsPage = () => {
 
       <section className="w-full bg-indigo-800 py-12 text-white text-center">
         <p className="text-xl">
-          If you’re interested in my work or want to collaborate on a project, feel free to reach out!
+          If you’re interested in collaborating or learning more about any of my projects, feel free to reach out!
         </p>
         <a
-          href="mailto:dixithimanshu012@gmail.com"
+          href="#contact"  // Placeholder for the contact section
           className="mt-4 inline-block px-6 py-3 bg-white text-indigo-800 rounded-lg shadow-lg hover:bg-indigo-700 hover:text-white transition-all"
         >
           Let’s Connect
