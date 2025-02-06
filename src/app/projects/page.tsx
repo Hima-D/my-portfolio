@@ -6,104 +6,117 @@ const ProjectsPage = () => {
   return (
     <>
       <Header />
-      <section className="w-full bg-gray-100 py-12 px-4 md:px-6 mt-16">
+      <section className="w-full bg-gray-100 py-16 px-6 mt-16">
         {/* The 'mt-16' ensures the content is below the fixed header */}
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-indigo-900 mb-8 text-center">
-            My Projects (aka My Digital Playground)
+          <h2 className="text-4xl font-extrabold text-indigo-900 mb-8 text-center">
+            My Projects: A Playground of Ideas and Innovation
           </h2>
 
-          <div className="space-y-8">
+          <div className="space-y-12">
             {/* Sales Analysis Model */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Sales Analysis & Forecasting Model</h3>
-              <p className="text-lg text-gray-700 opacity-80 mb-4">
-                I developed a machine learning model to predict future sales trends for a retail client. Think of it like forecasting the weather, but for sales. I used time-series techniques like ARIMA and LSTM, which helped the client avoid overstocking and running out of popular products. It’s kind of like having a crystal ball, but with real data backing it up!
+              <p className="text-lg text-gray-700 mb-4">
+                I built a machine learning model to forecast retail sales, similar to predicting weather patterns but for sales data. By using time-series techniques like ARIMA and LSTM, I helped clients optimize inventory, prevent overstocking, and avoid running out of popular products. Real data-powered crystal ball, if you will!
               </p>
-              <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Cleaned and prepared data using EDA (Exploratory Data Analysis) to ensure accurate predictions.</li>
-                <li>Applied ARIMA and LSTM models to forecast sales, helping optimize inventory and reduce waste.</li>
-                <li>Worked closely with the business team to make sure the model actually helped them hit their goals. Spoiler alert: it did!</li>
+              <ul className="list-inside list-disc text-lg text-gray-700 space-y-2">
+                <li>Used EDA (Exploratory Data Analysis) to clean and prepare data for accurate forecasting.</li>
+                <li>Implemented ARIMA and LSTM models to predict future sales, optimizing inventory and minimizing waste.</li>
+                <li>Collaborated closely with the business team to ensure the model delivered real-world value (spoiler: it worked!).</li>
               </ul>
             </div>
 
             {/* Data Cleaning Pipelines */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Data Cleaning & Sanity Check Pipelines</h3>
-              <p className="text-lg text-gray-700 opacity-80 mb-4">
-                This one’s all about making sure your data is nice and tidy before you do anything with it. I built robust pipelines to clean and process large datasets in finance and retail. Imagine giving your data a spa day—getting rid of all the messy bits so it’s ready to work for you.
+              <p className="text-lg text-gray-700 mb-4">
+                Clean, reliable data is the foundation of any solid analysis. I developed robust ETL pipelines for finance and retail, turning raw data into valuable insights. Think of it as giving your data a well-deserved cleanse before it can help you make decisions.
               </p>
-              <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Designed ETL workflows to handle missing values, outliers, and duplicates in financial data.</li>
-                <li>Automated sanity checks and anomaly detection to ensure the data remained high quality.</li>
-                <li>Leveraged Python (Pandas, NumPy) and SQL to streamline the whole process and handle large-scale data efficiently.</li>
+              <ul className="list-inside list-disc text-lg text-gray-700 space-y-2">
+                <li>Designed ETL workflows to handle missing values, outliers, and duplicate entries in large datasets.</li>
+                <li>Automated sanity checks and anomaly detection to maintain high data quality and consistency.</li>
+                <li>Leveraged Python (Pandas, NumPy) and SQL to efficiently process and clean large-scale datasets.</li>
               </ul>
             </div>
 
             {/* Coinwave Contribution */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">AI for Finance at Coinwave</h3>
-              <p className="text-lg text-gray-700 opacity-80 mb-4">
-                At Coinwave, we’re still in the early stages of building an AI-driven platform for managing financial accounts and helping people plan for their future goals. My job as a Machine Learning Engineer is to develop predictive models that will eventually help clients make smarter financial decisions—whether it’s investments, savings, or long-term financial planning. It’s like we’re creating a personal financial assistant, but powered by AI.
+              <p className="text-lg text-gray-700 mb-4">
+                At Coinwave, we’re building an AI-driven platform to help individuals manage their finances and plan for future goals. As a Machine Learning Engineer, I’m focused on creating predictive models that will empower users to make smarter financial decisions. Think of it as a personal financial assistant powered by AI!
               </p>
-              <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Building predictive models to forecast financial trends, helping clients optimize their portfolios.</li>
-                <li>Developing a unified platform that brings all accounts together, helping people plan and track their financial goals.</li>
-                <li>Collaborating with a talented team to turn complex financial data into easy-to-understand insights for users.</li>
+              <ul className="list-inside list-disc text-lg text-gray-700 space-y-2">
+                <li>Developing predictive models to forecast financial trends, enhancing portfolio optimization.</li>
+                <li>Building a unified platform that consolidates financial data, helping users plan and track goals effectively.</li>
+                <li>Collaborating with the team to turn complex financial data into easy-to-understand insights for users.</li>
               </ul>
             </div>
 
             {/* Enack Contribution */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Co-Founder at Enack</h3>
-              <p className="text-lg text-gray-700 opacity-80 mb-4">
-                I co-founded Enack, an EdTech startup focused on building AI-powered tools to personalize learning experiences. At Enack, we’re working on transitioning our platform from offline to fully online. Our goal is to create an interactive learning environment that’s tailored to each student’s needs—whether that’s through personalized content recommendations or gamified learning experiences. The shift online will help us reach a lot more students and expand our impact.
+              <p className="text-lg text-gray-700 mb-4">
+                As a co-founder of Enack, an EdTech startup, I’m working on developing AI-powered tools that personalize learning experiences. We’re transitioning our platform to an online space, aiming to create a more interactive, engaging, and accessible learning environment for students worldwide.
               </p>
-              <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Developed an AI-powered personalized learning engine that tailors content based on student interaction.</li>
-                <li>Led the development of gamification features to make learning more engaging and fun.</li>
-                <li>Transitioning the platform from offline to online to provide greater accessibility for students everywhere.</li>
+              <ul className="list-inside list-disc text-lg text-gray-700 space-y-2">
+                <li>Developed an AI-powered engine that personalizes content based on each student’s learning style and progress.</li>
+                <li>Led the creation of gamification features to make learning more fun and engaging.</li>
+                <li>Helping move the platform fully online to increase access for students across the globe.</li>
               </ul>
             </div>
 
             {/* Platform for Engagement */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">AI-Powered Platform for Student Engagement</h3>
-              <p className="text-lg text-gray-700 opacity-80 mb-4">
-                I helped build an AI-powered platform to track student engagement, predict academic success, and suggest personalized interventions. It’s like having a dashboard that alerts teachers when students might need extra help, or even when they’re about to zone out in class. In short, it’s a tool that helps make education more responsive to student needs.
+              <p className="text-lg text-gray-700 mb-4">
+                I contributed to an AI-driven platform that tracks student engagement, predicts academic success, and recommends personalized interventions. It's a tool that helps teachers track progress and provide timely support to students who need it most. Learning meets technology—just the way it should be.
               </p>
-              <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Used machine learning to analyze student interaction data and predict future academic engagement.</li>
-                <li>Created dashboards for educators to track students’ progress and intervene when necessary.</li>
-                <li>Incorporated interactive, engaging features to make the learning experience as fun as it is educational.</li>
+              <ul className="list-inside list-disc text-lg text-gray-700 space-y-2">
+                <li>Used machine learning to analyze student behavior and predict their academic success.</li>
+                <li>Developed interactive dashboards for educators to track students' progress and intervene when necessary.</li>
+                <li>Incorporated engaging features to keep students motivated and excited about learning.</li>
               </ul>
             </div>
 
             {/* Achievement in Finance and Mathematics */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">State 2nd Topper in Finance & Mathematics</h3>
-              <p className="text-lg text-gray-700 opacity-80 mb-4">
-                A little personal achievement I’m pretty proud of: I was ranked as the State 2nd Topper in both Finance and Mathematics. I’m a bit of a numbers nerd (who isn’t, right?) and this recognition reflects my deep love for analytical thinking. And yes, it was all achieved with a generous amount of coffee.
+              <p className="text-lg text-gray-700 mb-4">
+                A personal achievement I’m quite proud of: I was ranked as the 2nd Topper in Finance and Mathematics in my state. This reflects my passion for numbers and quantitative analysis, which fuel my work in machine learning and finance.
               </p>
-              <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Excelled in state exams, proving my skills in finance and quantitative analysis.</li>
-                <li>Used advanced math to solve real-world challenges in both finance and machine learning.</li>
+              <ul className="list-inside list-disc text-lg text-gray-700 space-y-2">
+                <li>Excelled in state exams, showcasing deep understanding of finance and mathematics.</li>
+                <li>Applied advanced mathematical techniques to real-world challenges in finance and machine learning.</li>
               </ul>
             </div>
 
             {/* Personal Interest in Astrophysics */}
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Astrophysics: My Cosmic Curiosity</h3>
-              <p className="text-lg text-gray-700 opacity-80 mb-4">
-                On a more personal note, I’ve always been fascinated by the universe. My interest in astrophysics isn’t just limited to stargazing—it’s more about understanding the fundamental laws of nature and how they apply to both the cosmos and the technology we develop. In many ways, the complexity of machine learning reminds me of astrophysics—both require us to build models to understand a vast, often unknowable universe.
+              <p className="text-lg text-gray-700 mb-4">
+                Astrophysics has always fascinated me. Beyond stargazing, it's about understanding the fundamental laws of nature. The parallels between astrophysics and machine learning are striking—both involve developing models to understand complex, often mysterious phenomena.
               </p>
-              <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 space-y-2">
-                <li>Love exploring the mysteries of space and the mathematical models that describe it.</li>
-                <li>Always amazed by the parallels between space exploration and the cutting-edge technologies we’re building.</li>
+              <ul className="list-inside list-disc text-lg text-gray-700 space-y-2">
+                <li>Fascinated by the mathematical models that describe the universe and how they relate to our technologies.</li>
+                <li>Always intrigued by the overlaps between space exploration and machine learning innovation.</li>
               </ul>
             </div>
+
           </div>
         </div>
+      </section>
+
+      <section className="w-full bg-indigo-800 py-12 text-white text-center">
+        <p className="text-xl">
+          If you’re interested in my work or want to collaborate on a project, feel free to reach out!
+        </p>
+        <a
+          href="mailto:dixithimanshu012@gmail.com"
+          className="mt-4 inline-block px-6 py-3 bg-white text-indigo-800 rounded-lg shadow-lg hover:bg-indigo-700 hover:text-white transition-all"
+        >
+          Let’s Connect
+        </a>
       </section>
     </>
   );
