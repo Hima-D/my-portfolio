@@ -7,13 +7,12 @@ const Contact = () => {
     <>
       <Header />
       <div className="relative min-h-screen bg-white text-gray-900 flex items-center justify-center py-16">
-        <div className="absolute inset-0 bg-gradient-to-br from-indigo-100 via-purple-200 to-blue-300 opacity-70"></div>
         <div className="relative z-10 max-w-3xl mx-auto px-8 py-16 bg-white text-gray-800 rounded-3xl shadow-2xl">
           <h1 className="text-4xl font-extrabold text-center text-gray-900 mb-6">
-            Let’s Chat! 🤖
+            Let's Connect! 🌟
           </h1>
           <p className="text-lg text-gray-600 text-center mb-10">
-            Got questions? Ideas? Or just want to talk about how AI is slowly taking over the world? Well, you’re in the right place. Feel free to drop me a message, and let’s have a good conversation! 📬
+            Have any questions, ideas, or thoughts on AI? Or maybe you just want to talk about the future of technology? I’m always happy to connect and have a friendly chat. Feel free to drop me a message! 📬
           </p>
 
           <div className="space-y-10">
@@ -51,13 +50,27 @@ const Contact = () => {
           </div>
 
           {/* Quick Summary Section */}
-          <h2 className="text-2xl font-semibold text-center text-gray-900 mt-12">Quick Overview 🧠</h2>
+          <h2 className="text-2xl font-semibold text-center text-gray-900 mt-12">A Little About My Work 🧑‍💻</h2>
           <p className="text-lg text-gray-700 text-center mt-4 max-w-3xl mx-auto">
-            I live in the world of machine learning, AI, and data science, and yes, I do try to make machines smarter than me (it’s a work in progress). I’m passionate about exploring the intersection of tech and learning, so if you have any cool ideas or just want to talk about how AI is going to run the world, I’m all ears.
+            I spend a lot of my time exploring the exciting world of machine learning, AI, and data science. It’s a fascinating field, and I feel fortunate to be able to contribute to its growth. I’m always learning, adapting, and trying to improve, and I would love to share ideas and learn from others in the field.
           </p>
 
           <p className="text-lg text-gray-700 text-center mt-4">
-            Whether you’re into deep learning, generative AI, or just want to argue about the superiority of coffee over tea for late-night coding, feel free to reach out. I promise I won’t ghost you... unless I’m deep in research, in which case, I’ll respond once I’m done caffeinating. ☕
+            My current focus is on a few research areas that I find interesting and impactful:
+          </p>
+
+          <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 mt-4 space-y-2">
+            <li><strong>AI Ethics:</strong> Understanding how we can ensure AI is developed in a responsible and fair way for everyone.</li>
+            <li><strong>Reinforcement Learning:</strong> Looking at how machines can learn through trial and error to solve real-world problems.</li>
+            <li><strong>Generative AI:</strong> Exploring how we can use AI to create new and useful content, such as images or even music.</li>
+          </ul>
+
+          <p className="text-lg text-gray-700 text-center mt-4 max-w-3xl mx-auto">
+            These are just a few topics that I find exciting. If you’re interested in any of them or just want to talk about technology in general, feel free to reach out. I look forward to connecting and learning from each other.
+          </p>
+
+          <p className="text-lg text-gray-700 text-center mt-4">
+            Let’s chat, share ideas, and explore how we can make the most of the technology we have today. 😊
           </p>
         </div>
       </div>
