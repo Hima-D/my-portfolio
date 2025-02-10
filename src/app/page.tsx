@@ -28,12 +28,12 @@ export default function Home() {
 
         {/* Homepage Section */}
         <section id="homepage" className="w-full bg-white rounded-lg shadow-xl p-6 mb-8 max-w-[800px] hover:shadow-2xl transition-shadow duration-300">
-          <h2 className="text-2xl font-semibold mb-4 text-indigo-900">Welcome to My Homepage</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-indigo-900">Welcome to My Digital Workspace</h2>
           <p className="text-lg text-gray-700 opacity-80">
-            Welcome to my little corner of the web, where the code is clean, the coffee is strong, and the stack traces are&hellip; well, let&apos;s not talk about those. As an AI enthusiast and developer, I dive deep into the realms of machine learning and artificial intelligence, but I still find myself asking: &quot;Why does JavaScript hate me today?&quot;
+            Welcome to my corner of the internet! Here, we explore everything from building powerful AI models to unraveling the mysteries of machine learning. Grab a cup of coffee (or two) as I take you through my journey of coding, debugging, and yes, occasionally asking myself, "Why did that work?".
           </p>
           <p className="text-lg text-gray-700 opacity-80 mt-4">
-            Whether it&apos;s crafting algorithms that predict the future (or at least try to) or exploring trends like generative AI and large language models, I&apos;m always chasing the next innovation. Yes, I&apos;m the person who reads GitHub release notes like they&apos;re the morning paper. 
+            Whether it's crafting algorithms that predict the future (or at least try to) or diving into cutting-edge technologies like generative AI and large language models, I am always on the lookout for the next challenge. But don't worry, I've mastered the art of Googling errors. 
           </p>
         </section>
 
@@ -43,27 +43,27 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-gray-700 opacity-80">
             <div className="flex items-center gap-2">
               <FaLaptopCode className="h-6 w-6 text-indigo-600" />
-              <span>Machine Learning (because teaching machines is easier than debugging them)</span>
+              <span>Machine Learning (Teaching machines... and fixing their tantrums)</span>
             </div>
             <div className="flex items-center gap-2">
               <FaCode className="h-6 w-6 text-indigo-600" />
-              <span>Python &amp; Libraries (a.k.a. my daily bread and butter)</span>
+              <span>Python &amp; Libraries (My toolkit for world domination)</span>
             </div>
             <div className="flex items-center gap-2">
               <FaLaptopCode className="h-6 w-6 text-indigo-600" />
-              <span>Deep Learning (yes, even my dreams are multi-layered)</span>
+              <span>Deep Learning (Yes, my neural networks dream too)</span>
             </div>
             <div className="flex items-center gap-2">
               <FaCode className="h-6 w-6 text-indigo-600" />
-              <span>AI Frameworks (TensorFlow, PyTorch... and the occasional Ctrl+C, Ctrl+V)</span>
+              <span>AI Frameworks (TensorFlow, PyTorch... also known as my work buddies)</span>
             </div>
             <div className="flex items-center gap-2">
               <FaLaptopCode className="h-6 w-6 text-indigo-600" />
-              <span>Cloud Computing (because my laptop deserves a break)</span>
+              <span>Cloud Computing (I let the cloud do the heavy lifting)</span>
             </div>
             <div className="flex items-center gap-2">
               <FaCode className="h-6 w-6 text-indigo-600" />
-              <span>Big Data (it&apos;s not just big, it&apos;s overwhelming)</span>
+              <span>Big Data (It’s not just big, it’s a cosmic adventure)</span>
             </div>
           </div>
         </section>
@@ -75,7 +75,7 @@ export default function Home() {
             href="mailto:dixithimanshu012@gmail.com"
           >
             <FaEnvelope className="h-5 w-5 text-white mr-2" />
-            Contact Me
+            Contact Me (Let’s chat about AI, or anything really!)
           </a>
           <a
             className="rounded-full border border-solid border-indigo-600/[.2] transition-colors flex items-center justify-center hover:bg-indigo-50 text-sm sm:text-base h-12 px-6 sm:px-8 sm:min-w-44 shadow-lg"
@@ -84,7 +84,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <FaLinkedin className="h-5 w-5 text-indigo-600 mr-2" />
-            LinkedIn Profile
+            LinkedIn Profile (Let’s connect on LinkedIn!)
           </a>
         </div>
       </main>
@@ -98,14 +98,14 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <FaGithub className="h-4 w-4 text-gray-600" />
-          GitHub
+          GitHub (Find my code and occasional memes)
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="mailto:dixithimanshu012@gmail.com"
         >
           <FaEnvelope className="h-4 w-4 text-gray-600" />
-          Email Me
+          Email Me (I promise I don’t bite)
         </a>
       </footer>
     </div>
