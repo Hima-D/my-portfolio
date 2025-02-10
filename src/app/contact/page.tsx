@@ -3,16 +3,19 @@ import React from "react";
 import Header from "@/components/header";
 
 const Contact = () => {
+  // Email encoding (obfuscated email address)
+  const email = "dixithimanshu012" + "@" + "gmail" + ".com";
+
   return (
     <>
       <Header />
       <div className="relative min-h-screen bg-white text-gray-900 flex items-center justify-center py-16">
         <div className="relative z-10 max-w-3xl mx-auto px-8 py-16 bg-white text-gray-800 rounded-3xl shadow-2xl">
           <h1 className="text-4xl font-extrabold text-center text-gray-900 mb-6">
-            Let's Connect! 🌟
+            Let’s Connect! 🌟
           </h1>
           <p className="text-lg text-gray-600 text-center mb-10">
-            Whether you're exploring new AI paradigms, looking for research collaboration, or simply want to chat about the latest in tech—I’m all ears. I promise I won’t start an unsolicited lecture on machine learning (unless, of course, you’re asking for one). 😉
+            Whether you're exploring AI, diving into cutting-edge research, or simply want to chat about technology, I’m here for it. No unsolicited machine learning lectures, I promise—unless you ask for one. 😉
           </p>
 
           <div className="space-y-10">
@@ -26,7 +29,8 @@ const Contact = () => {
               <div>
                 <strong className="block text-lg font-medium text-gray-800">Email:</strong>
                 <p className="text-lg text-blue-600 hover:underline">
-                  <a href="mailto:dixithimanshu012@gmail.com">dixithimanshu012@gmail.com</a>
+                  {/* Displaying email as an obfuscated string */}
+                  <a href={`mailto:${email}`}>{email}</a>
                 </p>
               </div>
             </div>
@@ -52,25 +56,25 @@ const Contact = () => {
           {/* Quick Summary Section */}
           <h2 className="text-2xl font-semibold text-center text-gray-900 mt-12">A Glimpse Into My Work 🧑‍💻</h2>
           <p className="text-lg text-gray-700 text-center mt-4 max-w-3xl mx-auto">
-            My daily grind revolves around the realms of machine learning, AI, and data science—fields that are as exciting as they are complex. It’s like solving a complex optimization problem, where the objective is to stay one step ahead of technology’s exponential growth. I don’t always succeed, but I’m pretty proud of my progress. 😅
+            I spend most of my time immersed in the dynamic worlds of machine learning, AI, and data science—fields that are both intellectually thrilling and full of infinite possibilities. The work is akin to solving an evolving optimization problem—always challenging, but incredibly rewarding. I don’t always have all the answers, but I’m continuously learning and adapting. 😅
           </p>
 
           <p className="text-lg text-gray-700 text-center mt-4">
-            I’m particularly intrigued by the following research areas:
+            Here are a few research areas that particularly excite me:
           </p>
 
           <ul className="list-inside list-disc text-lg text-gray-700 opacity-80 mt-4 space-y-2">
-            <li><strong>AI Ethics:</strong> Ensuring AI doesn’t just become "intelligent," but also fair, transparent, and, dare I say, ethical. Who said AI couldn’t have a moral compass? 🤖</li>
-            <li><strong>Reinforcement Learning:</strong> Teaching machines to learn from their mistakes... and hoping they don’t start trying to optimize the entire economy. 💡</li>
-            <li><strong>Generative AI:</strong> Using AI to create new, original content—whether it’s art, music, or text. It's like giving AI a canvas and asking it to paint... let's just hope it's not all abstract. 🎨</li>
+            <li><strong>AI Ethics:</strong> Ensuring that AI doesn’t just get smarter, but also remains ethical, transparent, and fair. Let’s give AI a moral compass, shall we? 🤖</li>
+            <li><strong>Reinforcement Learning:</strong> Teaching machines to learn from their actions. Ideally, they don’t try to optimize everything in sight (including world economies). 💡</li>
+            <li><strong>Generative AI:</strong> Enabling AI to create fresh, meaningful content—whether it’s text, art, or music. Imagine giving AI a paintbrush and hoping it doesn't paint abstract chaos. 🎨</li>
           </ul>
 
           <p className="text-lg text-gray-700 text-center mt-4 max-w-3xl mx-auto">
-            These are just a few of the areas where I’m actively diving deep. If you’re equally passionate about AI’s ethical challenges, generative models, or reinforcement learning, I’d love to have a discussion. After all, every algorithm’s solution is only as good as the data (and the ideas) behind it.
+            These are just a few of the exciting topics I’m exploring. If you share a passion for AI ethics, generative models, or reinforcement learning, let’s discuss! After all, every breakthrough is shaped by new ideas and diverse perspectives.
           </p>
 
           <p className="text-lg text-gray-700 text-center mt-4">
-            So, let’s engage in meaningful dialogue, share insights, and maybe even explore ways to use technology to make the world a better place—one model at a time. 💡
+            So, let's connect—exchange ideas, explore potential collaborations, and maybe even figure out how we can use AI to make the world a little bit better. 💡
           </p>
         </div>
       </div>
