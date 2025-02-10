@@ -22,52 +22,52 @@ export default function Header() {
       <div className="flex justify-between items-center px-6 py-4 max-w-screen-lg mx-auto">
         {/* Logo / Name */}
         <Link href="/" passHref>
-          <div className="text-indigo-900 font-bold text-xl cursor-pointer">
+          <div className="text-indigo-900 font-bold text-xl cursor-pointer hover:text-indigo-700 transition-colors">
             Himanshu Dixit
           </div>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-6">
+        <nav className="hidden md:flex gap-8 items-center">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-lg text-indigo-800 hover:text-indigo-600 transition-all"
+              className="text-lg text-indigo-800 hover:text-indigo-600 transition-colors"
             >
               {link.label}
             </Link>
           ))}
-        </nav>
 
-        {/* Social Icons */}
-        <div className="hidden md:flex items-center gap-4">
-          <a
-            href="mailto:dixithimanshu012@gmail.com"
-            className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
-            aria-label="Email"
-          >
-            <FaEnvelope />
-          </a>
-          <a
-            href="https://linkedin.com/in/him-d"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
-            aria-label="LinkedIn"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="https://github.com/hima-d"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
-            aria-label="GitHub"
-          >
-            <FaGithub />
-          </a>
-        </div>
+          {/* Social Icons */}
+          <div className="flex gap-6">
+            <a
+              href="mailto:dixithimanshu012@gmail.com"
+              className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
+              aria-label="Email"
+            >
+              <FaEnvelope />
+            </a>
+            <a
+              href="https://linkedin.com/in/him-d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/hima-d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-800 hover:text-indigo-600 transition-all text-xl"
+              aria-label="GitHub"
+            >
+              <FaGithub />
+            </a>
+          </div>
+        </nav>
 
         {/* Mobile Menu Toggle */}
         <button
