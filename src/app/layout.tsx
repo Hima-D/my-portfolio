@@ -51,20 +51,24 @@ export default function RootLayout({
         <GoogleTagManager gtmId="G-QSWE89DM1Z" />
         {/* Favicon link */}
         <link rel="shortcut icon" href="/favicon.ico" />
+        
+        {/* Preconnect to Google Fonts */}
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        
         {/* Preload fonts */}
         <link
           rel="preload"
           href="https://fonts.gstatic.com/s/geistsans/v4/FjF7Pt9vwftz4gU4J49flpS3nYKD2A2P3DviQA7P9z4.woff2"
           as="font"
           type="font/woff2"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
         <link
           rel="preload"
           href="https://fonts.gstatic.com/s/geistmono/v4/LnP6zEj7CBtAwSy36UkA6pLhPZZ_29h0b5pIogG9vvE.woff2"
           as="font"
           type="font/woff2"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </Head>
       <body>
