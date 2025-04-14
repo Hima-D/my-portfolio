@@ -4,6 +4,7 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaCode, FaLaptopCode } from 'react-ic
 import Image from 'next/image';
 import Header from '@/components/header';
 
+// Skill items
 const skillItems = [
   { label: "Machine Learning Engineering", Icon: FaLaptopCode },
   { label: "Python & Data Science Libraries", Icon: FaCode },
@@ -21,8 +22,6 @@ export default function AboutPage() {
 
       {/* Main Content */}
       <main className="flex flex-col items-center sm:items-start text-gray-900 max-w-screen-lg mx-auto mt-24 gap-16">
-        
-       
 
         {/* About Section */}
         <section className="w-full bg-white rounded-lg shadow-xl p-6 max-w-2xl hover:shadow-2xl transition-shadow duration-300">
@@ -60,7 +59,7 @@ export default function AboutPage() {
         </section>
 
         {/* Contact Buttons */}
-        <section className="flex flex-col sm:flex-row gap-6 items-center mt-4">
+        <section className="flex flex-col sm:flex-row gap-6 items-center mt-8">
           <a
             className="rounded-full bg-indigo-600 text-white hover:bg-indigo-700 h-12 px-6 sm:px-8 flex items-center justify-center shadow-lg transition-colors"
             href="mailto:dixithimanshu012@gmail.com"
@@ -78,7 +77,33 @@ export default function AboutPage() {
         </section>
       </main>
 
-     
+      {/* Footer */}
+      <footer className="w-full border-t border-gray-200 mt-16 py-6 text-sm text-gray-600 bg-white">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+          {/* Social Links */}
+          <div className="flex gap-5 items-center">
+            <a
+              href="https://github.com/hima-d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-indigo-600 transition-colors"
+            >
+              <FaGithub className="h-4 w-4" />
+              GitHub
+            </a>
+            <a
+              href="mailto:dixithimanshu012@gmail.com"
+              className="flex items-center gap-2 hover:text-indigo-600 transition-colors"
+            >
+              <FaEnvelope className="h-4 w-4" />
+              Contact
+            </a>
+          </div>
+
+          {/* Copyright */}
+          <p className="text-xs text-gray-500">&copy; {new Date().getFullYear()} Himanshu Dixit</p>
+        </div>
+      </footer>
     </div>
   );
 }
