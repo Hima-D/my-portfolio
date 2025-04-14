@@ -22,17 +22,7 @@ export default function AboutPage() {
       {/* Main Content */}
       <main className="flex flex-col items-center sm:items-start text-gray-900 max-w-screen-lg mx-auto mt-24 gap-16">
         
-        {/* Profile */}
-        <section className="flex flex-col items-center sm:items-start text-center sm:text-left">
-          <Image
-            src="/my-portfolio/profile.jpg"
-            alt="Himanshu Dixit"
-            width={160}
-            height={160}
-            className="rounded-full border-4 border-indigo-600 shadow-lg hover:scale-105 transition-transform duration-300"
-          />
-          <h1 className="text-4xl sm:text-5xl font-bold mt-6 text-indigo-900">Himanshu Dixit</h1>
-        </section>
+       
 
         {/* About Section */}
         <section className="w-full bg-white rounded-lg shadow-xl p-6 max-w-2xl hover:shadow-2xl transition-shadow duration-300">
@@ -88,23 +78,7 @@ export default function AboutPage() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="flex flex-wrap gap-6 justify-center items-center text-sm text-gray-600 opacity-80 mt-16">
-        <a
-          href="https://github.com/hima-d"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:underline"
-        >
-          <FaGithub className="h-4 w-4" /> GitHub
-        </a>
-        <a
-          href="mailto:dixithimanshu012@gmail.com"
-          className="flex items-center gap-2 hover:underline"
-        >
-          <FaEnvelope className="h-4 w-4" /> Contact
-        </a>
-      </footer>
+     
     </div>
   );
 }
