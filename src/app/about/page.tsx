@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub, FaCode, FaLaptopCode } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaCode, FaLaptopCode } from 'react-icons/fa';
 import Header from '@/components/header';
 
 // Skill items
