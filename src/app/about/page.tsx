@@ -1,65 +1,124 @@
-"use client";
-import React from 'react';
+import { FaEnvelope, FaLinkedin, FaGithub, FaCode, FaLaptopCode } from 'react-icons/fa';
 import Header from '@/components/header';
+import Image from 'next/image';
 
-const About = () => {
+export default function Home() {
   return (
-    <>
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen bg-gray-50 p-8 pb-20 gap-12 sm:p-16 font-sans">
+      {/* Header */}
       <Header />
-      <section
-        id="about"
-        className="relative w-full min-h-screen bg-gray-50 text-gray-900 flex flex-col items-center py-16"
-      >
-        <div className="relative z-10 max-w-4xl mx-auto px-8 py-16 bg-white text-gray-800 rounded-3xl shadow-xl">
-          <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-8">
-            About Me
-          </h2>
 
-          <div className="space-y-8">
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              Hello! I'm Himanshu. I’m deeply passionate about how technology—especially AI and machine learning—can solve real-world problems. My work is currently centered around the intersection of finance and technology, where we aim to create solutions that help people make smarter financial decisions. It's about empowering individuals with the tools to shape their financial future with confidence.
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              At <span className="font-semibold">Coinwave</span>, I’m leading efforts to develop predictive systems that provide a clearer picture of individual financial behaviors. Our goal is to create a system that helps people track, manage, and plan their finances more effectively. It’s a complex challenge, but I’m excited to be a part of it.
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              My journey began with a fascination for coding. Over time, I realized that technology could be a powerful tool to solve pressing issues. However, it wasn’t until I explored finance that I saw how technology could truly transform this space. This is not just about algorithms, but about building systems that empower individuals and businesses to thrive in a rapidly changing world.
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              The challenge is clear: technology is evolving faster than many can keep up, and that includes the financial sector. Today, businesses don't only compete on traditional fronts—they compete on data. The ability to analyze data and act on it in real-time is critical. My focus is on bridging that gap by creating predictive models that help businesses and individuals make more informed decisions.
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              On a broader scale, the world is changing geopolitically in response to technological advancements. Countries are competing to dominate the data-driven future, which has massive implications not just for businesses, but for global power dynamics. From AI to data privacy, the next few years will shape the future of global influence. I find this shift to be deeply intriguing and am working to understand it better.
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              This is where AI, finance, and geopolitics intersect for me. I believe AI can help level the playing field, not just in business but in society as a whole. By applying machine learning to financial challenges, we have the potential to improve financial literacy, democratize access to resources, and build systems that allow everyone to make better financial decisions. My ultimate vision is a future where anyone, regardless of background, can make decisions with the same confidence as an expert.
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              Beyond technology, I’m fascinated by the cosmos. Astrophysics is a field that excites me—it’s all about exploring the vast, complex universe, which mirrors the complexity I find in financial markets. Whether I’m learning about new theories in physics or analyzing economic systems, I’m always looking for patterns—patterns that can apply both in the stars and the stock market.
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              The common thread? Patterns. Both in the universe and in financial markets, there are systems and behaviors that, when understood, allow us to make predictions and take control. This journey of discovery—whether in astrophysics, finance, or AI—is what keeps me motivated to build something meaningful.
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              Looking ahead, I see AI and data as the backbone of future economic and geopolitical power. Every global decision—whether in business or politics—will be influenced by how these tools are leveraged. For me, this isn’t just a career; it’s about contributing to the future. How can we harness AI to not only predict trends but also change the way we interact with the world? How can we make sure technology, when applied to finance, benefits everyone, not just a select few?
-            </p>
-
-            <p className="text-xl leading-relaxed text-gray-700 opacity-80">
-              So, I’m here to help build that future. If you’re excited about the possibilities of AI, finance, and technology—or if you just want to chat about the latest astrophysics discoveries—I’d love to connect. Let’s create something meaningful together.
-            </p>
-          </div>
+      {/* Main Content Section */}
+      <main className="flex flex-col gap-8 items-center sm:items-start text-gray-900 max-w-screen-lg mx-auto mt-16">
+        
+        {/* Profile Section */}
+        <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
+          <Image
+            src="/my-portfolio/profile.jpg"
+            alt="Himanshu Dixit"
+            width={150}
+            height={150}
+            className="rounded-full border-2 border-gray-300 mb-6 shadow-md"
+          />
+          <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-gray-800">Himanshu Dixit</h1>
+          <p className="text-lg font-medium text-gray-600">
+            AI Engineering | Machine Learning
+          </p>
         </div>
-      </section>
-    </>
-  );
-};
 
-export default About;
+        {/* Work Focus Section */}
+        <section id="work" className="w-full bg-white rounded-lg shadow-md p-6 mb-6 max-w-2xl">
+          <h2 className="text-xl font-semibold mb-3 text-gray-800">Work Focus</h2>
+          <p className="text-base text-gray-700">
+            I develop machine learning systems with emphasis on production-ready implementation. My work centers on creating models that process complex data inputs to produce reliable, actionable outputs.
+          </p>
+          <p className="text-base text-gray-700 mt-3">
+            Current focus areas include generative AI applications and optimization of large language models for specific tasks. I prioritize functional solutions over theoretical constructs.
+          </p>
+        </section>
+
+        {/* Technical Capabilities Section */}
+        <section className="w-full bg-white rounded-lg shadow-md p-6 mb-6 max-w-2xl">
+          <h2 className="text-xl font-semibold mb-3 text-gray-800">Technical Capabilities</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-700">
+            <div className="flex items-center gap-2">
+              <FaLaptopCode className="h-5 w-5 text-gray-600" />
+              <span>Machine Learning Implementation</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaCode className="h-5 w-5 text-gray-600" />
+              <span>Python Data Processing</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaLaptopCode className="h-5 w-5 text-gray-600" />
+              <span>Neural Network Development</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaCode className="h-5 w-5 text-gray-600" />
+              <span>TensorFlow & PyTorch</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaLaptopCode className="h-5 w-5 text-gray-600" />
+              <span>Cloud Computing Infrastructure</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaCode className="h-5 w-5 text-gray-600" />
+              <span>Large-Scale Data Processing</span>
+            </div>
+          </div>
+        </section>
+
+        {/* Methodology Section */}
+        <section className="w-full bg-white rounded-lg shadow-md p-6 mb-6 max-w-2xl">
+          <h2 className="text-xl font-semibold mb-3 text-gray-800">Methodology</h2>
+          <p className="text-base text-gray-700">
+            I apply systematic problem analysis, data-driven decision making, and iterative improvement processes. Projects begin with clearly defined objectives and constraints, followed by structured implementation and rigorous testing.
+          </p>
+          <p className="text-base text-gray-700 mt-3">
+            I measure success through quantifiable metrics and functional outcomes rather than theoretical elegance. Code quality, documentation, and maintainability are essential components of all implementations.
+          </p>
+        </section>
+
+        {/* Contact Section */}
+        <div className="flex gap-5 items-center flex-col sm:flex-row mt-6">
+          <a
+            className="rounded border border-solid border-gray-400 transition-colors flex items-center justify-center bg-gray-700 text-white hover:bg-gray-800 text-sm sm:text-base h-10 px-5 sm:px-6 shadow-sm"
+            href="mailto:dixithimanshu012@gmail.com"
+          >
+            <FaEnvelope className="h-4 w-4 text-white mr-2" />
+            Email
+          </a>
+          <a
+            className="rounded border border-solid border-gray-300 transition-colors flex items-center justify-center hover:bg-gray-100 text-sm sm:text-base h-10 px-5 sm:px-6 sm:min-w-32 shadow-sm"
+            href="https://www.linkedin.com/in/him-d"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="h-4 w-4 text-gray-700 mr-2" />
+            LinkedIn
+          </a>
+        </div>
+      </main>
+
+      {/* Footer Section */}
+      <footer className="flex gap-5 flex-wrap items-center justify-center text-sm text-gray-500 mt-6">
+        <a
+          className="flex items-center gap-2 hover:text-gray-700"
+          href="https://github.com/hima-d"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="h-4 w-4" />
+          GitHub
+        </a>
+        <a
+          className="flex items-center gap-2 hover:text-gray-700"
+          href="mailto:dixithimanshu012@gmail.com"
+        >
+          <FaEnvelope className="h-4 w-4" />
+          Contact
+        </a>
+      </footer>
+    </div>
+  );
+}
