@@ -4,6 +4,15 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaCode, FaLaptopCode } from 'react-ic
 import Image from 'next/image';
 import Header from '@/components/header';
 
+const skillItems = [
+  { label: "Machine Learning Engineering", Icon: FaLaptopCode },
+  { label: "Python & Data Science Libraries", Icon: FaCode },
+  { label: "Deep Learning with TensorFlow & PyTorch", Icon: FaCode },
+  { label: "Time Series & NLP for Financial Data", Icon: FaLaptopCode },
+  { label: "Cloud Infrastructure & MLOps", Icon: FaLaptopCode },
+  { label: "Big Data & Stream Processing", Icon: FaCode },
+];
+
 export default function AboutPage() {
   return (
     <div className="grid grid-rows-[auto_1fr_auto] min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-8 sm:p-20 font-sans">
@@ -23,7 +32,6 @@ export default function AboutPage() {
             className="rounded-full border-4 border-indigo-600 shadow-lg hover:scale-105 transition-transform duration-300"
           />
           <h1 className="text-4xl sm:text-5xl font-bold mt-6 text-indigo-900">Himanshu Dixit</h1>
-        
         </section>
 
         {/* About Section */}
@@ -41,23 +49,16 @@ export default function AboutPage() {
         <section className="w-full bg-white rounded-lg shadow-xl p-6 max-w-2xl hover:shadow-2xl transition-shadow duration-300">
           <h2 className="text-2xl font-semibold mb-4 text-indigo-900">What I Bring to the Table</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700">
-            {[
-              ["Machine Learning Engineering", <FaLaptopCode />],
-              ["Python & Data Science Libraries", <FaCode />],
-              ["Deep Learning with TensorFlow & PyTorch", <FaCode />],
-              ["Time Series & NLP for Financial Data", <FaLaptopCode />],
-              ["Cloud Infrastructure & MLOps", <FaLaptopCode />],
-              ["Big Data & Stream Processing", <FaCode />],
-            ].map(([label, icon], idx) => (
+            {skillItems.map(({ label, Icon }, idx) => (
               <div className="flex items-center gap-2" key={idx}>
-                <div className="text-indigo-600 text-xl">{icon}</div>
+                <Icon className="text-indigo-600 text-xl" />
                 <span>{label}</span>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Approach */}
+        {/* Philosophy Section */}
         <section className="w-full bg-white rounded-lg shadow-xl p-6 max-w-2xl hover:shadow-2xl transition-shadow duration-300">
           <h2 className="text-2xl font-semibold mb-4 text-indigo-900">My Philosophy</h2>
           <p className="text-lg text-gray-700 opacity-90">
@@ -68,7 +69,7 @@ export default function AboutPage() {
           </p>
         </section>
 
-        {/* Contact */}
+        {/* Contact Buttons */}
         <section className="flex flex-col sm:flex-row gap-6 items-center mt-4">
           <a
             className="rounded-full bg-indigo-600 text-white hover:bg-indigo-700 h-12 px-6 sm:px-8 flex items-center justify-center shadow-lg transition-colors"
