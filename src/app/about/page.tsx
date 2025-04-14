@@ -2,7 +2,6 @@
 import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaCode, FaLaptopCode } from 'react-icons/fa';
 import Image from 'next/image';
-import Link from 'next/link';
 import Header from '@/components/header';
 
 export default function AboutPage() {
