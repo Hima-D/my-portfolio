@@ -76,32 +76,7 @@ export default function AboutPage() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="w-full border-t border-gray-200 mt-16 py-6 text-sm text-gray-600 bg-white">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
-          {/* Social Links */}
-          <div className="flex gap-5 items-center">
-            <a
-              href="https://github.com/hima-d"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-indigo-600 transition-colors"
-            >
-              <FaGithub className="h-4 w-4" />
-              GitHub
-            </a>
-            <a
-              href="mailto:dixithimanshu012@gmail.com"
-              className="flex items-center gap-2 hover:text-indigo-600 transition-colors"
-            >
-              <FaEnvelope className="h-4 w-4" />
-              Contact
-            </a>
-          </div>
-
-         
-        </div>
-      </footer>
+    
     </div>
   );
 }
