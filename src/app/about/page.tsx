@@ -99,8 +99,7 @@ export default function AboutPage() {
             </a>
           </div>
 
-          {/* Copyright */}
-          <p className="text-xs text-gray-500">&copy; {new Date().getFullYear()} Himanshu Dixit</p>
+         
         </div>
       </footer>
     </div>
