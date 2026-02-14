@@ -3,8 +3,11 @@
 import Image from 'next/image';
 import Header from '@/components/header';
 import { FaEnvelope, FaGithub, FaLinkedin, FaCode, FaBrain, FaRocket } from 'react-icons/fa';
+import WordProbabilityHighlight from '@/components/WordProbabilityHighlight';
 
 export default function Home() {
+  const bioText = "I build intelligent systems that bridge data, design, and decision-making — turning complexity into clarity through AI. My expertise lies in developing scalable machine learning architectures and crafting intuitive user experiences that leverage the power of generative models.";
+
   return (
     <div className="min-h-screen grid grid-rows-[auto_1fr_auto] bg-gradient-to-br from-white to-gray-100 font-sans">
       <Header />
@@ -21,12 +24,14 @@ export default function Home() {
         <h1 className="text-4xl sm:text-5xl font-extrabold text-indigo-900 mt-6">
           Himanshu Dixit
         </h1>
-        <p className="text-lg sm:text-xl text-gray-700 mt-4 max-w-2xl">
-          I build intelligent systems that bridge data, design, and decision-making — turning complexity into clarity through AI.
-        </p>
+        
+        <div className="mt-8 w-full max-w-2xl">
+          <h2 className="text-sm font-bold uppercase tracking-widest text-indigo-500 mb-4">Transformer-Powered Bio Analysis</h2>
+          <WordProbabilityHighlight text={bioText} className="text-left" />
+        </div>
 
         {/* CTA */}
-        <div className="flex gap-4 mt-6">
+        <div className="flex gap-4 mt-10">
           <a
             href="mailto:dixithimanshu012@gmail.com"
             className="bg-indigo-600 text-white px-6 py-3 rounded-full text-sm hover:bg-indigo-700 transition-all shadow-md"
@@ -48,21 +53,21 @@ export default function Home() {
 
       {/* Value Props */}
       <section className="bg-white py-16 px-6 sm:px-20 grid grid-cols-1 md:grid-cols-3 gap-8 text-center max-w-6xl mx-auto">
-        <div className="p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+        <div className="p-6 shadow-lg rounded-lg hover:shadow-xl transition border-t-4 border-indigo-500">
           <FaCode className="text-indigo-600 text-3xl mb-4 mx-auto" />
           <h3 className="text-xl font-semibold text-indigo-900 mb-2">Full-Stack AI</h3>
           <p className="text-gray-700 text-sm">
             From prototyping to deployment — I build end-to-end ML systems that scale.
           </p>
         </div>
-        <div className="p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+        <div className="p-6 shadow-lg rounded-lg hover:shadow-xl transition border-t-4 border-indigo-500">
           <FaBrain className="text-indigo-600 text-3xl mb-4 mx-auto" />
           <h3 className="text-xl font-semibold text-indigo-900 mb-2">Generative AI</h3>
           <p className="text-gray-700 text-sm">
             I craft solutions using LLMs and transformers that go beyond chatbots — into insight.
           </p>
         </div>
-        <div className="p-6 shadow-lg rounded-lg hover:shadow-xl transition">
+        <div className="p-6 shadow-lg rounded-lg hover:shadow-xl transition border-t-4 border-indigo-500">
           <FaRocket className="text-indigo-600 text-3xl mb-4 mx-auto" />
           <h3 className="text-xl font-semibold text-indigo-900 mb-2">Engineering for Impact</h3>
           <p className="text-gray-700 text-sm">
